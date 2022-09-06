@@ -2,7 +2,7 @@
 <br>
 <br>
 <center>
-  <p>Bonelab, by stresslevelzero, has to release before:</p>
+  <p>Bonelab, by StressLevelZero, has to release before:</p>
   <p id="demo"></p>
   <p>scrubware</p>
 </center>
@@ -26,8 +26,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "days, " + hours + "hours "
+  + minutes + "minutes, and " + seconds + "seconds.";
 
   // If the count down is finished, write some text
   if (distance < 0) {
